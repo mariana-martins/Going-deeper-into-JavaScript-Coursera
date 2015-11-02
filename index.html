@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The journey</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="animate.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="brand-title" href="#">The journey</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                        <li><a id="about" href="#" onclick="alert('Site under construction')">About Us</a></li>
+                        <li><a id="itinerary" href="#" onclick="alert('Site under construction')">The Journey Itinerary</a></li>
+                        <li><a id="photos" href="#" onclick="alert('Site under construction')">Photos</a></li>
+                </ul>
+                <div class="nav navbar-nav navbar-right social-icons">
+                        <a href="#"><img src="facebook.svg" id="Facebook" alt="Facebook"></a>
+                        <a href="#"><img src="twitter.svg" id="Twitter" alt="Twitter"></a>
+                        <a href="#"><img src="googleplus.svg" id="Google" alt="Google +"></a>
+                </div>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <main>
+        <div class="container">
+            <h1 class="trip wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" >The journey</h1>
+            <div class="row wow slideInLeft" data-wow-delay="2s">
+                <div class="col-md-3">
+                    <img id="image1" class="crop-img img-responsive" src="img_1.jpg" alt="Queenstown"/>
+                </div>
+                <div class="col-md-3">
+                    <img id="image2" class="crop-img img-responsive" src="img_2.jpg" alt="The Shire"/>
+                </div>
+                <div class="col-md-3">
+                    <img id="image3" class="crop-img img-responsive" src="img_3.jpg" alt="Wai-O-Tapu Rotorua"/>
+                </div>
+                <div class="col-md-3">
+                    <img id="image4" class="crop-img img-responsive" src="img_5.jpg" alt="Aratiatia Rapids Taupo"/>
+                </div>
+            </div>
+            <div class="row wow slideInRight hidden-xs" data-wow-delay="2s">
+                <div class="col-md-1">
+                    <button id="backward" class="glyphicon glyphicon-chevron-left"></button>
+                </div>
+                <div class="col-md-10">
+                    <img id="bigImage" class="large-img img-responsive" src="img_1.jpg" alt="graffittied building"/>
+                </div>
+                <div class="col-md-1">
+                    <button id="forward" class="glyphicon glyphicon-chevron-right"></button>
+                </div>
+            </div>
+            <div class="row">
+                <p id="introduction">Our journey began when we decided we were going to spend our honeymoon in New Zealand.<br>
+                    Preparations for the trip lasted about 6 months, where we decided everything: the cities, the hotels and the tours.<br>
+                    On 29 August, we boarded the plane and travel to this wonderful country!
+                </p>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script type="text/javascript" src="gallery.js"></script>
+</body>
+</html>

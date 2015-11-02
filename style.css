@@ -1,0 +1,67 @@
+#brand-title{
+    color:#204d74;
+    font-family: 'Bangers', cursive;
+    font-size: 3em;
+}
+
+.trip{
+    color: #843534;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Bangers', cursive;
+    font-size: 4em;
+}
+
+.navbar{
+    background-color: #a94442;
+}
+
+#about, #itinerary, #photos{
+    color: #ffffff;
+}
+
+#about:hover{
+    color: #843534;
+}
+
+#itinerary:hover{
+    color: #843534;
+}
+
+#photos:hover{
+    color: #843534;
+}
+
+#Facebook, #Twitter, #Google{
+    width: 1.5em;
+}
+
+.social-icons{
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+.img-responsive{
+    padding: 3%;
+}
+
+#introduction{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+)
+
+.crop-img{
+    max-height:150px;
+    max-width:100%;
+    margin-bottom: 10px;
+}
+
+.large-img{
+    max-width:100%;
+    margin-top: 10px;
+}
+
+body{
+    background-color: #f9f2f4;
+}
